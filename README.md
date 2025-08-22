@@ -33,4 +33,22 @@ Clone this repo or download the script:
 git clone https://github.com/rohithrajbaskaran/logAnalyzer.git
 cd logAnalyzer
 chmod +x loganalyzer.sh
+```
+
+---
+
+## 🚀 Usage
+```./loganalyzer.sh /path/to/access.log```
+
+Add the path to your apache/nginx access logs.
+
+---
+
+## 📊 Sample Output
+
+=== Top 10 IPs ===
+
+192.168.1.5: ####### (70) <br>
+10.0.0.2: #### (40) <br>
+203.0.113.9: ### (30) <br>
 
